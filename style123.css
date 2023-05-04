@@ -4,7 +4,7 @@
 
 }
 body{
-  font-size: 14px;
+  font-size: 16px;
     font-family: sans-serif;
     background-color: #023020;
 }
@@ -29,6 +29,22 @@ body{
     padding-top: -50px;
     padding: 50px;
 }
+.ppp1{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+  width: 90%;
+  height: 20%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px #ffffff;
+  background-color: #023020;
+  background: #023020;
+  padding-top: -50px;
+  padding: 30px;
+}
+
 
 
 
@@ -330,6 +346,7 @@ h2{
 
 .cards123 img {
   width: 100%;
+
 }
 
 .cards123 h2 {
@@ -613,4 +630,84 @@ h1 {
     color: #ffffff;
   }
  
- 
+  .cccards1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cccards123 {
+    width: 300px;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cccards123:hover {
+    transform: translateY(-10px);
+  }
+  
+  .cccards123 img {
+    width: 50%;
+    float: inline-start;
+    border-radius: 100%;
+  
+  }
+  
+  .cccards123 h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .cccards123 p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .cccards123 button {
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cccards123 button:hover {
+    background-color: #ffffff;
+  }
+  .checked {
+    color: orange;
+  }
+  #startw{
+    float: left;
+  }  
+  .options-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .option {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .option.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
